@@ -26,7 +26,7 @@ if(pswdLength==null){
  if (charType==null){
    alert("Invalid char type! Please enter a valid char");
  }
- if (len>=8 && charType!=null){
+ if (len>=8 && len<=128 && charType!=null){
     textOut=textOut+charType;
     for (let i=0;i<(len)-1; i++){
       textOut+=textInput.charAt(Math.floor(Math.random() * textInput.length));
