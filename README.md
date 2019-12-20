@@ -12,15 +12,16 @@ On clicking the Generate Password button, the user will be prompted to choose fr
 
 Length (must be between 8 and 128 characters)
 
-Character type:
+Character type: 
 
-- Special characters
+- Special characters ( ~`!#$%^&*+=-[]\\\';,/{}|\":<>? )
 
-- Numeric characters
+- Numeric characters ( 0123456789 )
 
-- Lowercase characters
+- Lowercase characters ( abcdefghijklmnopqrstuvwxyz )
 
-- Uppercase characters
+- Uppercase characters ( ABCDEFGHIJKLMNOPQRSTUVWXYZ )
+
 
 Once all prompts are answered, the application validates the user input and ensures that the character type is displayed in the password.
 
