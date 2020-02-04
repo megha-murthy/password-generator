@@ -4,7 +4,7 @@
 
 This application generates a random password based on user-selected criteria.
 
- 
+https://megha-murthy.github.io/password-generator/
 
 ## Usage:
 
